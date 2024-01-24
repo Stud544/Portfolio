@@ -284,6 +284,36 @@ input[type="submit"]:hover {
   margin-bottom: 8px;
 }
 
+/* Custom styles for the Swiper.js carousel */
+
+/* Adjust the container size */
+.swiper-container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Style for each carousel slide */
+.swiper-slide {
+  text-align: center;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Style for the images in each slide */
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Style for the slide description */
+.swiper-slide-description {
+  padding: 15px;
+  color: #333;
+  font-size: 16px;
+}
+
 /* Style for navigation buttons */
 .swiper-button-prev,
 .swiper-button-next {
@@ -314,7 +344,6 @@ input[type="submit"]:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out;
 }
-
 /* Responsive design */
 @media screen and (max-width: 767px) and (min-width: 320px) {
   nav li{
