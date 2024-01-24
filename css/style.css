@@ -301,4 +301,7 @@ input[type="submit"]:hover {
   .gallery-item .description-overlay{
     font-size:7px;
   }
+  .wrapper{
+    margin:0px;
+  }
 }
