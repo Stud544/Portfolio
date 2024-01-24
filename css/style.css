@@ -295,4 +295,7 @@ input[type="submit"]:hover {
   nav #sitelogo .logo{
     margin: 0px;
   }
+  form {
+    width: 200px;
+  }
 }
