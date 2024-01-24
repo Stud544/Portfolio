@@ -285,7 +285,7 @@ input[type="submit"]:hover {
 }
 
 /* Responsive design */
-@media only screen and (max-width: 320px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
   nav li{
     display: block;
   }
