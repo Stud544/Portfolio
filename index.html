@@ -6,14 +6,10 @@
   <meta name="description" content="Brief description of your website.">
   <title>Manpreet Kaur</title>
   <link rel="stylesheet" href="css/style.css" />
-  <!-- Add the slick-theme.css if you want default styling -->
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
-  <!-- Add the slick-theme.css if you want default styling -->
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
-
+  <link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>-->
+  <script src="js/swiper.js"></script>
   <script defer src="js/image_carousel.js"></script>
   
 
@@ -85,11 +81,12 @@ Portfolio
   </section>
   <section>
     <h1>Carousel</h1>
-    <!-- Include the necessary HTML structure for the carousel -->
-    <div id="imageCarousel" class="carousel-container">
-      <!-- Carousel items will be dynamically added here -->
+    <div class="swiper-container" id="carousel">
+      <div class="swiper-wrapper"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
     </div>
-
   </section>
   </div>
   <footer>  
